@@ -429,7 +429,7 @@
 		qdel(thing, force=TRUE)
 
 	var/turf/newT = ChangeTurf(turf_type, baseturf_type, FALSE, FALSE, forceop = forceop)
-    
+
 	SSair.remove_from_active(newT)
 	newT.CalculateAdjacentTurfs()
 	SSair.add_to_active(newT,1)
