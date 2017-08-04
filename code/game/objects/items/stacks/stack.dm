@@ -197,9 +197,6 @@
 	if(R.one_per_turf && (locate(R.result_type) in usr.loc))
 		to_chat(usr, "<span class='warning'>There is another [R.title] here!</span>")
 		return 0
-	if(R.on_floor && !isfloorturf(usr.loc))
-		to_chat(usr, "<span class='warning'>\The [R.title] must be constructed on the floor!</span>")
-		return 0
 	return 1
 
 /obj/item/stack/proc/use(used, transfer = FALSE) // return 0 = borked; return 1 = had enough
