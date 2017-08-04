@@ -1,7 +1,7 @@
 /world
 	mob = /mob/dead/new_player
-	turf = /turf/open/space/basic
-	area = /area/space
+	turf = /turf/open/planet/dirt
+	area = /area/planet_surface
 	view = "15x15"
 	cache_lifespan = 7
 	hub = "Exadv1.spacestation13"
