@@ -2,7 +2,6 @@
 /turf/open/planet
   icon = 'icons/turf/floors.dmi'
   icon_state = "grass"
-  baseturf = /turf/open/planet/dirt
   initial_gas_mix = PLANET_DEFAULT_ATMOS
   planetary_atmos = TRUE
 
