@@ -1,22 +1,22 @@
 // Open turfs
-/turf/open/planet
+/turf/open/floor/planet
   icon = 'icons/turf/floors.dmi'
   icon_state = "grass"
   initial_gas_mix = PLANET_DEFAULT_ATMOS
   planetary_atmos = TRUE
 
-/turf/open/planet/grass
+/turf/open/floor/planet/grass
 
-/turf/open/planet/dirt
+/turf/open/floor/planet/dirt
   icon_state = "dirt"
 
-/turf/open/planet/wood
+/turf/open/floor/planet/wood
 	icon_state = "wood"
 
 //Closed turfs
 /turf/closed/wall/planet
-  //turf_type = /turf/open/planet/dirt
-  baseturf = /turf/open/planet/dirt
+  //turf_type = /turf/open/floor/planet/dirt
+  baseturf = /turf/open/floor/planet/dirt
 
 /turf/closed/wall/planet/indestructible
 	explosion_block = 50

@@ -1,6 +1,6 @@
 /world
 	mob = /mob/dead/new_player
-	turf = /turf/open/planet/dirt
+	turf = /turf/open/floor/planet/dirt
 	area = /area/planet_surface
 	view = "15x15"
 	cache_lifespan = 7
